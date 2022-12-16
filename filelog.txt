@@ -1,0 +1,10 @@
+ERROR:root:[Errno 2] No such file or directory: 'demo_file.txt'
+Traceback (most recent call last):
+  File "D:\seh_thread\demoexception.py", line 7, in FileOpen
+    f=open("demo_file.txt","r")
+FileNotFoundError: [Errno 2] No such file or directory: 'demo_file.txt'
+ERROR:root:[Errno 2] No such file or directory: 'demo_file.txt'
+Traceback (most recent call last):
+  File "D:\seh_thread\demoexception.py", line 7, in FileOpen
+    f=open("demo_file.txt","r")
+FileNotFoundError: [Errno 2] No such file or directory: 'demo_file.txt'

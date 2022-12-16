@@ -1,0 +1,21 @@
+import numpy as np
+#slicing or indexing
+
+# print(ar)
+# print(ar[0:,2])
+# print(ar[2,1:])
+# print(ar[2,1:])
+# print(ar[2:,2:])
+# print(np.zeros((5,5)))
+# print(np.ones((5,5)))
+A=np.arange(1,10).reshape(3,3)
+B=np.arange(1,10).reshape(3,3)
+# print(np.dot(A,B))
+# print(A)
+# print(A.T)
+ar=np.arange(9).reshape(3,3)
+print(ar)
+# print(ar[:,1])
+# print(ar[:,1]>1)
+print(ar.sum(axis=1))
+print(ar.max(axis=1))
